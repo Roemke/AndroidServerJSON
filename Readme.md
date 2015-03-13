@@ -6,7 +6,7 @@ Small Server based on nanoHTTPD
 
 Service is started on startup of phone.
 
-Server is looking on port 8080. If you access like http://localost/<anything> you get 
+Server is listening on port 8080. If you access like http://localost/<anything> you get 
 a small webpage with some information. 
 
 If you access  http://localhost/getJSON you get a json string with two 
