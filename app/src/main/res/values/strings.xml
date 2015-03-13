@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServerJSON</string>
+    <string name="hello_world">Service Control</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="introText">Der Server liefert ein paar Informationen im JSON-Format, wenn er mit http://localhost:8080/getJSON aufgerufen wird. \nRuft man nur http://localhost:8080 auf, dann bekommt man eine kleine Webseite angezeigt.</string>
+
+</resources>
