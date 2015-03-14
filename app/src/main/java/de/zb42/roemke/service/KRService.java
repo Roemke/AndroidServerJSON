@@ -39,7 +39,7 @@ public class KRService extends Service {
         {
             Toast.makeText(getApplicationContext(), "Server Start nicht möglich " + ex.toString(), Toast.LENGTH_LONG).show();
         }
-        return START_NOT_STICKY;
+        return START_STICKY; //want to keep service running
     }
     @Override
     public void onDestroy() {
